@@ -21,6 +21,8 @@ ol {
   margin-left: 0;
   margin-right: 0;
   padding-left: 0;
+  margin: 0;
+  list-style: none;
 }
 a {
   text-decoration: none;
@@ -29,7 +31,6 @@ button {
   cursor: pointer;
 }
 .container {
-  display: flex;
   max-width: 1440px;
   padding: 0 15px;
   margin: 0 auto;
@@ -343,10 +344,10 @@ img {
 .container-two {
 }
 .container-three {
-  width: calc((100% - 48px) / 3);
 }
 
 .container-footer {
+  display: inline-block;
 }
 .container-nav {
   display: flex;
