@@ -327,11 +327,11 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 24px 0;
 }
-.nav-box {
+.navi-box {
   justify-content: space-between;
   display: flex;
   gap: 40px;
-  padding-left: 76px;
 }
 /* #endregion boxes */
