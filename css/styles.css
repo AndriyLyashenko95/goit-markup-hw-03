@@ -60,6 +60,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
+  display: inline-block;
 }
 
 .logo-box {
@@ -85,6 +86,7 @@ img {
   color: #2e2f42;
   display: block;
   height: 24px;
+  padding: 24px 0;
 }
 .button-nav:hover {
   font-weight: 500;
@@ -282,6 +284,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .personal-discription {
   font-size: 16px;
@@ -353,11 +356,21 @@ img {
   gap: 40px;
   padding: 24px 0;
 }
-.nav-box-one {
+.navigation {
   display: flex;
   gap: 40px;
 }
-.hide {
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .container-product {
   padding: 32px 16px;
