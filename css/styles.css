@@ -73,6 +73,8 @@ img {
   padding-top: 24px;
   padding-bottom: 24px;
   margin-right: 76px;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .button-nav {
@@ -210,6 +212,7 @@ img {
 .team-box {
   background: #f4f4fd;
   color: #2e2f42;
+  padding: 120px 0;
 }
 .team-name {
   font-weight: 700;
@@ -219,10 +222,13 @@ img {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 .team-frame {
   background: #fff;
   color: #2e2f42;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 .team-personal {
   font-weight: 500;
@@ -230,6 +236,10 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
+  margin-bottom: 8px;
+}
+.personal-name {
+  padding: 32px 0;
 }
 .team-title {
   font-size: 16px;
@@ -253,13 +263,18 @@ img {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 .box-one {
   color: #2e2f42;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 
 .personal-box {
   background: #fff;
+  width: calc((100% - 48px) / 3);
 }
 .personal-headlight {
   font-weight: 500;
@@ -278,6 +293,7 @@ img {
 /* #region footer*/
 .footer {
   background: #2e2f42;
+  padding: 100px 0;
 }
 .footer-text {
   font-size: 16px;
@@ -293,6 +309,7 @@ img {
 }
 .team-container {
   display: flex;
+  gap: 24px;
 }
 .box-one {
   display: flex;
@@ -341,5 +358,11 @@ img {
   gap: 40px;
 }
 .hide {
+}
+.container-product {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
 }
 /* #endregion boxes */
