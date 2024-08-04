@@ -158,6 +158,7 @@ img {
   color: #ffffff;
   gap: 10px;
   max-width: 169px;
+  min-width: 169px;
   height: 56px;
   display: block;
   border: none;
@@ -333,5 +334,12 @@ img {
   justify-content: space-between;
   display: flex;
   gap: 40px;
+  padding: 24px 0;
+}
+.nav-box-one {
+  display: flex;
+  gap: 40px;
+}
+.hide {
 }
 /* #endregion boxes */
