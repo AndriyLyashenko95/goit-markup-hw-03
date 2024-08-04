@@ -44,6 +44,9 @@ img {
 .header {
   background: #fff;
   border-bottom: 1px solid #e7e9fc;
+  height: 72px;
+  display: flex;
+  align-items: center;
 }
 
 .logo-two {
@@ -77,6 +80,7 @@ img {
   margin-right: 76px;
   display: inline-block;
   margin-bottom: 16px;
+  align-items: center;
 }
 
 .button-nav {
@@ -110,11 +114,11 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
   font-style: normal;
-  display: block;
   height: 24px;
   padding-left: 72px;
   display: flex;
   gap: 40px;
+  align-items: center;
 }
 .nav-contact-two {
   font-size: 16px;
@@ -144,6 +148,8 @@ img {
   background: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
+  display: flex;
+  align-items: center;
 }
 .section-box {
   width: calc((100% - 72px) / 4);
@@ -156,6 +162,9 @@ img {
   text-align: center;
   color: #fff;
   max-width: 496px;
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 48px;
 }
 .section-button {
   background: #4d5ae5;
@@ -170,6 +179,7 @@ img {
   display: block;
   border: none;
   border-radius: 4px;
+  margin: 0 auto;
 }
 .section-button-text {
   font-weight: 500;
@@ -321,19 +331,12 @@ img {
   display: flex;
 }
 .container-header {
-  justify-content: space-between;
   display: flex;
-  padding-top: 24px;
-  padding-bottom: 24px;
-  align-items: center;
-  height: 24px;
-  padding: 0 15px;
-  gap: 40px;
-  align-items: flex-start;
-  flex-direction: row;
-  margin: 0 auto;
   width: 1158px;
-  height: 72px;
+  margin: 0 auto;
+  padding: 0 15px;
+  align-items: center;
+  height: 600px;
 }
 .container-one {
   width: 1440px;
@@ -346,6 +349,7 @@ img {
 
 .container-footer {
   display: inline-block;
+  height: 312px;
 }
 .container-nav {
   display: flex;
