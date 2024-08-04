@@ -310,6 +310,7 @@ img {
 .footer {
   background: #2e2f42;
   padding: 100px 0;
+  max-height: 312px;
 }
 .footer-text {
   font-size: 16px;
@@ -340,7 +341,7 @@ img {
 }
 .container-one {
   width: 1440px;
-  height: 600px;
+  max-height: 600px;
 }
 .container-two {
 }
@@ -349,7 +350,6 @@ img {
 
 .container-footer {
   display: inline-block;
-  height: 312px;
 }
 .container-nav {
   display: flex;
