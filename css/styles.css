@@ -72,6 +72,8 @@ img {
   text-transform: uppercase;
   color: #4d5ae5;
   padding-top: 24px;
+  padding-bottom: 24px;
+  margin-right: 76px;
 }
 
 .button-nav {
@@ -99,6 +101,16 @@ img {
 }
 
 .nav-contact {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  font-style: normal;
+  display: block;
+  height: 24px;
+  padding-left: 72px;
+}
+.nav-contact-two {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -290,8 +302,8 @@ img {
   display: flex;
   padding-top: 24px;
   padding-bottom: 24px;
-  margin-left: 157px;
-  margin-right: 157px;
+  padding-left: 15px;
+  padding-right: 15px;
   align-items: center;
   height: 24px;
   gap: 40px;
@@ -299,8 +311,8 @@ img {
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: row;
-  gap: 40px;
-  width: 1440px;
+  margin: 0 auto;
+  width: 1158px;
   height: 72px;
 }
 .container-one {
@@ -316,6 +328,7 @@ img {
 .container-nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .nav-box {
   justify-content: space-between;
