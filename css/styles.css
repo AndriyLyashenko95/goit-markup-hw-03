@@ -371,3 +371,6 @@ img {
   border-top: none;
 }
 /* #endregion boxes */
+.logo-box-footer {
+  margin-bottom: 16px;
+}
